@@ -1,0 +1,152 @@
+.footer {
+  background: var(--footer-color);
+}
+
+.footer-container {
+  display: flex;
+
+  align-items: baseline;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.footer-logo-adres-container {
+  display: flex;
+  flex-direction: column;
+
+  margin-right: 70px;
+}
+
+.logo-title-footer {
+  color: var(--footer-accent-color);
+}
+
+.footer-adres-container {
+  font-style: normal;
+  margin-top: 20px;
+}
+
+.footer-adres-list-item:not(:last-child) {
+  margin-bottom: 9px;
+}
+
+.footer-adres {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: white;
+
+  &:hover,
+  &:focus {
+    color: var(--footer-accent-color);
+  }
+}
+
+.footer-email {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  &:hover,
+  &:focus {
+    color: var(--footer-accent-color);
+  }
+}
+
+.footer-tel {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+
+  &:hover,
+  &:focus {
+    color: var(--footer-accent-color);
+  }
+}
+
+.footer-social-list-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--footer-accent-color);
+}
+
+.footer-social-list {
+  display: flex;
+  justify-content: space-between;
+  width: 206px;
+  margin-top: 20px;
+}
+
+.footer-social-list-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 44px;
+  border-radius: 50%;
+  background: var(--footer-social-list-link-bg);
+  transition: background-color 250ms linear;
+
+  &:focus,
+  &:hover {
+    background-color: var(--accent-color);
+  }
+}
+
+.footer-social-list-icon {
+  fill: var(--footer-accent-color);
+  height: 20px;
+  width: 20px;
+}
+
+.footer-form {
+  margin-left: 93px;
+  color: var(--main-title-text-color);
+}
+.text-assign {
+  display: block;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.03em;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+.btn-assign {
+  min-width: 200px;
+  min-height: 50px;
+  border-radius: 4px;
+  border-color: transparent;
+  margin-left: 12px;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.06em;
+  color: var(--main-title-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
+}
+.email-assign-input {
+  background: transparent;
+  min-width: 356px;
+  min-height: 48px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  padding-left: 15px;
+  color: var(--main-title-text-color);
+}
+
+.btn-assign-svg {
+  fill: var(--main-title-text-color);
+  vertical-align: middle;
+  margin-left: 10px;
+}
